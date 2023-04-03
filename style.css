@@ -2,15 +2,21 @@
     background-color: #f2c1a2;
     font-family: 'Cookie', cursive;
     border-radius: 5%;
+    max-width: 1600px;
+    max-height: 300px;
 }
 
 #header-border h1 {
     color: #6e174c;
     text-align: center;
     text-decoration: none;
+    font-size: 62px;
 }
 
 #header-border ul {
     display: flex;
+    gap: 20px;
     text-decoration: none;
+    font-size: 30px;
+    list-style-type: none;
 }
