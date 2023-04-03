@@ -1,0 +1,16 @@
+#header-border {
+    background-color: #f2c1a2;
+    font-family: 'Cookie', cursive;
+    border-radius: 5%;
+}
+
+#header-border h1 {
+    color: #6e174c;
+    text-align: center;
+    text-decoration: none;
+}
+
+#header-border ul {
+    display: flex;
+    text-decoration: none;
+}
