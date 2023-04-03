@@ -1,5 +1,7 @@
+/* Header Section*/
+
 #header-border {
-    background-color: #f2c1a2;
+    background-color: #f2d6de;
     font-family: 'Cookie', cursive;
     border-radius: 5%;
     max-width: 1600px;
@@ -10,16 +12,17 @@
     color: #6e174c;
     text-align: center;
     text-decoration: none;
-    font-size: 85px;
+    font-size: 90px;
     padding-bottom: 75px;
 }
 
 #header-border ul {
     display: flex;
     gap: 20px;
-    text-decoration: none;
     font-size: 30px;
     list-style-type: none;
+    text-decoration: none;
+    color: #6e174c;
 }
 
  div > img {
@@ -28,8 +31,31 @@
     border-radius: 50px;
 }
 
+/*contents section*/
+
 .content-section {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    justify-content:space-around;
+}
+
+h2 {
+    color: #6e174c;
+}
+
+.content-blocks {
+    background-color: #e6dcdc;
+}
+
+/*Booking Form Section*/
+
+.bookings div {
+    background-color: #f2d6de;
+    max-height: 1600px;
+    max-height: 500px;
+}
+
+.bookings h3 {
+    color: #6e174c;
 }
