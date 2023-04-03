@@ -27,3 +27,9 @@
     height: 250px;
     border-radius: 50px;
 }
+
+.content-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
