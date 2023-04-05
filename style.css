@@ -59,10 +59,10 @@ font-family: Georgia, 'Times New Roman', Times, serif
 
 .tag {
     display: flex;
-    background-color: #e6dcdc;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    border-radius: 5%;
 }
 
 .book-table {
