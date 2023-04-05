@@ -1,5 +1,14 @@
 
 /* Header Section*/
+h1 {
+    font-family: 'Cookie', cursive;
+    color: #6e174c;
+}
+
+h2, h3 {
+color: #6e174c;
+font-family: Georgia, 'Times New Roman', Times, serif
+}
 
 #header-border {
     background-color: #f2d6de;
@@ -23,7 +32,6 @@
     font-size: 30px;
     list-style-type: none;
     text-decoration: none;
-    color: #6e174c;
 }
 
  div > img {
@@ -39,15 +47,13 @@
     flex-direction: row;
     justify-content: center;
     justify-content:space-around;
-}
-
-h2 {
-    color: #6e174c;
+    font-family: 'Cookie', cursive;
 }
 
 .content-blocks {
     background-color: #e6dcdc;
 }
+
 
 /*Booking Form Section*/
 
