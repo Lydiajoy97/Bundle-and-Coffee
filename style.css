@@ -83,25 +83,6 @@ nav ul {
     border-radius: 5%;
 }
 
-#tag {
-    font-size: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 5%;
-    background-color: #e6dcdc;
-    margin-left: 15%;
-    margin-right: 15%;
-}
-
-.tag-book {
-    margin-left: 40%;
-    margin-right: 40%;
-    text-align: center;
-    background-color: #e6dcdc;
-    border-radius: 5%;
-}
 .book-table {
     display: flex;
     align-items: center;
