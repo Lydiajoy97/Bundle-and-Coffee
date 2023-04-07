@@ -50,6 +50,11 @@ nav ul {
 
 /*contents section*/
 
+.landing-image {
+    width: 400px;
+    height: 300px;
+}
+
  div > img {
     width: 300px;
     height: 250px;
