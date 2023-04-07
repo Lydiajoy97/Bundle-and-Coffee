@@ -1,9 +1,16 @@
 /*For Desktop*/
 /* Header Section*/
-ul {
+nav > ul {
     display: flex;
-    flex-direction: row;
     text-align: left;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+p > li {
+    text-decoration: none;
+    flex-direction: column;
+    list-style-type: none;
 }
 
 h1 {
@@ -87,12 +94,6 @@ nav ul {
     font-family: 'Cookie', cursive;
     flex-basis: 30%;
     border-radius: 5%;
-}
-
-.book-table {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
 }
 
 /*Booking Form Section*/
