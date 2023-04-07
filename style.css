@@ -28,6 +28,7 @@ p {
     background-color: #f2d6de;
     font-family: 'Cookie', cursive;
     border-radius: 5%;
+    width: 1600px;
 }
 
 nav ul {
@@ -51,8 +52,11 @@ nav ul {
 /*contents section*/
 
 .landing-image {
-    width: 400px;
-    height: 300px;
+    display: flex;
+    justify-content: center;
+    width: 1600px;
+    height: 500px;
+    margin: none;
 }
 
  div > img {
