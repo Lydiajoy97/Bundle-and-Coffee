@@ -62,7 +62,17 @@ nav ul {
     justify-content: space-around;
 }
 
-.content-blocks {
+.content-block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e6dcdc;
+    font-family: 'Cookie', cursive;
+    flex-basis: 30%;
+    border-radius: 5%;
+}
+
+.content-block2 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,4 +145,15 @@ h3 {
   font-size: smaller;
 }
 
+.content-section {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
 }
