@@ -22,11 +22,13 @@ h1 {
 h2, h3 {
 color: #6e174c;
 font-family: 'Darker Grotesque', sans-serif;
+font-size: 30px;
 }
 
 p {
     color: #878687;
     font-family: 'Darker Grotesque', sans-serif;
+    font-size: 25px;
 }
 
 #header-border {
