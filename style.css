@@ -1,8 +1,15 @@
-
+/*For Desktop*/
 /* Header Section*/
+ul {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
 h1 {
     font-family: 'Cookie', cursive;
     color: #6e174c;
+    margin: 15px;
 }
 
 h2, h3 {
@@ -16,28 +23,31 @@ p {
 }
 
 #header-border {
+    display: flex;
+    flex-direction: column;
     background-color: #f2d6de;
     font-family: 'Cookie', cursive;
     border-radius: 5%;
-    max-width: 1600px;
-    max-height: 300px;
+}
+
+nav ul {
+    margin: 0.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: #878687;
+    gap: 10px;
+    text-transform: none;
 }
 
 #header-border h1 {
     color: #6e174c;
     text-align: center;
     text-decoration: none;
-    font-size: 90px;
-    padding-bottom: 75px;
+    font-size: 100px;
 }
 
-#header-border ul {
-    display: flex;
-    gap: 20px;
-    font-size: 30px;
-    list-style-type: none;
-    text-decoration: none;
-}
+/*contents section*/
 
  div > img {
     width: 300px;
@@ -45,7 +55,7 @@ p {
     border-radius: 50px;
 }
 
-/*contents section*/
+
 
 .content-section {
     display: flex;
