@@ -8,6 +8,7 @@
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 25px;
     font-weight: bold;
+    margin-top: 5%;
 }
 
 a:link {
@@ -59,6 +60,7 @@ p {
     font-family: 'Great Vibes', cursive;
     color: #6e174c;
     margin-left: 27%;
+    margin-top: 5%;
     font-size: 70px;
     justify-content: center;
 }
