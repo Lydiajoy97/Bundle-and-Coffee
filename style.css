@@ -32,7 +32,7 @@ h1 {
     font-size: 40px;
 }
 
-h2, h3 {
+h2, h3, h4 {
 color: #6e174c;
 font-family: 'Darker Grotesque', sans-serif;
 font-size: 30px;
@@ -47,19 +47,19 @@ p {
 #header-border {
     display: flex;
     flex-direction: row;
-    justify-content: start;
     background-color: #e6dcdc;
     border-radius: 5%;
     width: 1900px;
 }
 
-#header-border h1 {
+.bundle-coffee {
     display: flex;
     font-family: 'Great Vibes', cursive;
     color: #6e174c;
     margin-left: 27%;
     font-size: 70px;
-    align-self: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /*contents section*/
@@ -103,6 +103,22 @@ p {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+/*Menu Page*/
+
+#cafe-menu {
+    display: flex;
+    width: 40%;
+    flex-flow: column;
+
+}
+
+#cafe-menu > ul {
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    }
 
 /*For mobiles*/ 
 @media screen and (max-width: 900px) {
