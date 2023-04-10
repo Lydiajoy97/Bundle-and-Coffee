@@ -47,7 +47,9 @@ p {
 #header-border {
     display: flex;
     flex-direction: row;
-    background-color: #e6dcdc;
+    background-image: url(background/header.jpg);
+    background-repeat: repeat-x;
+    background-size: contain;
     border-radius: 5%;
     width: 1900px;
 }
@@ -59,7 +61,6 @@ p {
     margin-left: 27%;
     font-size: 70px;
     justify-content: center;
-    align-items: center;
 }
 
 /*contents section*/
@@ -108,8 +109,11 @@ p {
 
 #cafe-menu {
     display: flex;
-    width: 40%;
+    justify-content: center;
+    padding-top: 5%;
+    width: 30%;
     flex-flow: column;
+    height: 600px;
 
 }
 
@@ -125,24 +129,6 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-}
-
-#menu-img-area {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#tunnel-img {
-    width: 400px;
-    height: 450px;
-    padding: 5%;
-}
-
-#donut-img {
-    width: 410px;
 }
 
 /*For mobiles*/ 
