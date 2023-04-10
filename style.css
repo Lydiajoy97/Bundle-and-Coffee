@@ -120,6 +120,31 @@ p {
     font-weight: bold;
     }
 
+#menu-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#menu-img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tunnel-img {
+    width: 400px;
+    height: 450px;
+    padding: 5%;
+}
+
+#donut-img {
+    width: 410px;
+}
+
 /*For mobiles*/ 
 @media screen and (max-width: 900px) {
    
