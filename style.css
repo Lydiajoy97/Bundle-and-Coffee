@@ -1,11 +1,23 @@
 /*For Desktop*/
 /* Header Section*/
-#menu ul {
+ #menu > ul {
     display: flex;
-    justify-content: flex-start;
-    text-decoration: none;
+    justify-content: left;
     list-style-type: none;
-    padding-left: 10px;
+    flex-flow: column;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+    color: #6e174c;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #878687;
 }
 
 p > li {
@@ -17,7 +29,7 @@ p > li {
 h1 {
     font-family: 'Great Vibes', cursive;
     color: #6e174c;
-    margin: 15px;
+    font-size: 40px;
 }
 
 h2, h3 {
@@ -35,28 +47,19 @@ p {
 #header-border {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     background-color: #e6dcdc;
     border-radius: 5%;
     width: 1900px;
 }
-   
-nav ul {
-    margin: 0.5%;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
-    text-decoration: none;
-    list-style-type: none;
-    color: #878687;
-    gap: 10px;
-    text-transform: none;
-}
 
 #header-border h1 {
+    display: flex;
+    font-family: 'Great Vibes', cursive;
     color: #6e174c;
-    align-items: center;
-    text-decoration: none;
-    font-size: 100px;
+    margin-left: 27%;
+    font-size: 70px;
+    align-self: center;
 }
 
 /*contents section*/
@@ -106,6 +109,7 @@ nav ul {
    
 #header-border h1 {
     font-size: 50px;
+    margin-left: 5%;
     }
 
 #header-border {
