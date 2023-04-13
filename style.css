@@ -64,12 +64,12 @@ p {
     font-size: 25px;
 }
 
-.bundle-coffee > h1 {
-    display: flex;
+.bundle-coffee h1 {
     font-family: 'Great Vibes', cursive;
     color: #6e174c;
     margin-top: 5%;
     font-size: 70px;
+    text-align: center;
 }
 
 /*contents section*/
