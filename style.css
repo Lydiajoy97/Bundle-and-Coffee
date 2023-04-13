@@ -121,10 +121,10 @@ p {
     margin-bottom: 30px;
 }
 
-.bookings {
+.bookings-form {
     width: max-content;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin: 0 auto;
 }
 
 /*Menu Page*/
