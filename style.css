@@ -56,20 +56,23 @@ h2, h3, h4 {
 color: #6e174c;
 font-family: 'Darker Grotesque', sans-serif;
 font-size: 30px;
+font-weight: bolder;
 }
 
 p {
-    color: #878687;
+    color: #6b6c6b;
     font-family: 'Darker Grotesque', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .bundle-coffee h1 {
     font-family: 'Great Vibes', cursive;
     color: #6e174c;
-    margin-top: 5%;
-    font-size: 70px;
+    font-size: 75px;
     text-align: center;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 /*contents section*/
@@ -84,7 +87,7 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 1900px;
+    width: 100%;
 }
 
 .content-block1 {
@@ -94,6 +97,8 @@ p {
     font-family: 'Cookie', cursive;
     flex-basis: 30%;
     border-radius: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .content-block2 {
@@ -103,6 +108,8 @@ p {
     font-family: 'Cookie', cursive;
     flex-basis: 30%;
     border-radius: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 /*Booking Form Section*/
@@ -112,6 +119,14 @@ p {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bookings {
+    width: max-content;
+    display: flex;
+    justify-content: center;
 }
 
 /*Menu Page*/
