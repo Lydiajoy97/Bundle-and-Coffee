@@ -5,28 +5,27 @@
     width: 100%;
     height: 40%;
     display: flex;
-    background-image: url(background/header.jpg);
+    background-image: url(background/beansheading.png);
     flex-direction: row;
     background-repeat: repeat-x;
     background-size: contain;
-    columns: 3;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
 .nav-bar {
     display: flex;
-    justify-content: left;
-    flex-flow: column;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 25px;
     font-weight: bold;
 }
 
-.nav-bar ul {
+.nav-bar > ul {
     display: flex;
-    flex-flow: row;
-    justify-content: center;
-    justify-content: space-between;
+    flex-flow: column;
+    justify-content: right;
+    list-style-type: none;
+    text-decoration: none;
+    align-items: flex-end;
 }
 
 a:link {
@@ -65,9 +64,8 @@ p {
     font-size: 25px;
 }
 
-.bundle-coffee h1 {
+.bundle-coffee > h1 {
     display: flex;
-    justify-content: left;
     font-family: 'Great Vibes', cursive;
     color: #6e174c;
     margin-top: 5%;
