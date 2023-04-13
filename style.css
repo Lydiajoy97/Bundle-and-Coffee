@@ -9,7 +9,6 @@
     flex-direction: row;
     background-repeat: repeat-x;
     background-size: contain;
-    justify-content: flex-end;
 }
 
 .nav-bar {
@@ -22,10 +21,9 @@
 .nav-bar > ul {
     display: flex;
     flex-flow: column;
-    justify-content: right;
+    justify-content: left;
     list-style-type: none;
     text-decoration: none;
-    align-items: flex-end;
 }
 
 a:link {
