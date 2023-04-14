@@ -9,6 +9,8 @@ Features of the main page.
 <li>Title and Navagation bar:
 The title Bundle and Coffee is the name of the cafe which means "to bundle up with a Guiena pig and grab a coffee.". 
 I have chosen the pink, dark purple and light grey color scheme for its friendly and cody feel. </li>
+<li>I changed the header background from pink to have coffee beans instead so that users understand that the website is for a cafe. Using Canva, I edited the coffee beans banner to make it more transparent so that the text stood out.</li>
+<li>Eventually I moved the header out of the nav bar and into it's own div so that I could target it individually.</li>
 
 Main page contents section:
 
@@ -16,12 +18,10 @@ Main page contents section:
 This photo is of one of my own guiena pigs emerging from a soft hidey house. Users will see this and will hopefully see how it captures the joyfulness and playfulness of not only the guiena pigs, but the cafe itself. It's border edges are smooth to create a soft, gentler feel to the website. </li>
 
 <li>Background image:
-I plan to use a faded image of coffee beans for the whole background on the website pages.</li> 
+I planned to use a faded image of coffee beans for the whole background on the website pages. This didn't help the text to stand out so indead I kept the background white and used the coffee beans in the nav banner.</li> 
 
 <li>Booking enquiries:</li>
-
-</ul>
-
+<ul></ul>
 Features of the Menu page. 
 <ul>
 <li>Menu which shows all the food and drinks avalible at the cafe.</li>
@@ -35,8 +35,6 @@ Meet the guiena pigs page
 
 Credits
 Content:
-
-<
 
 Media credits:
 <li>I used font Awesome to get the icon on the title, and used the font awesome website and w3schools to help with the set up steps.</li>
