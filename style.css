@@ -24,6 +24,8 @@
     justify-content: left;
     list-style-type: none;
     text-decoration: none;
+    text-decoration-style: none;
+    text-decoration-color: none;
 }
 
 a:link {
@@ -189,4 +191,16 @@ div > img {
     border-radius: 50px;
     margin-left: 20%;
 }
+}
+
+.page-footer ul {
+ text-align: center;
+ background-color: #F0c9df;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ height: 60px;
+ font-family: 'Darker Grotesque', sans-serif;
+ font-weight: bolder;
 }
