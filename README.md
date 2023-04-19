@@ -1,47 +1,85 @@
-Bundle and Coffee: Guiena pig cafe 
+<header><h2>Project one</h2>
+<h1>Bundle and Coffee: Guiena Pig Cafe</h1>
+<h2>Lydia Young</h2><header>
+<br>
 
-Bundle and Coffee is a cosy cafe which is the home to guiena pigs. This cafe is designed for those who love pets, especially guiena pigs, but might not have them at home. The Guiena pig cafe is located in Hackney which is a London bourogh full with families who might not have the space in their flats to have pets at home. This cafe makes it possible for families or indviduals to come and play with the guiena pigs without the responisbility or commitment!
+<h2>Project Demo Page</h2>
+*insert responsive desgin demo page*
 
-The website will allow you to make enquiries, book a play session with the guiena pigs, meet the pets and browse the menu. 
+<h2>Project Brief</h2>
 
-Features of the main page.
-<ul>
-<li>Title and Navagation bar:
-The title Bundle and Coffee is the name of the cafe which means "to bundle up with a Guiena pig and grab a coffee.". 
-I have chosen the pink, dark purple and light grey color scheme for its friendly and cody feel. </li>
-<li>I changed the header background from pink to have coffee beans instead so that users understand that the website is for a cafe. Using Canva, I edited the coffee beans banner to make it more transparent so that the text stood out.</li>
-<li>Eventually I moved the header out of the nav bar and into it's own div so that I could target it individually.</li>
+Bundle and Coffee is a cosy cafe which is the home to Guinea pigs. This cafe is designed for those who love pets, especially Guinea pigs. The Guinea pig cafe is located in Hackney which is a London borough full of families who might not have the space in their flats to have pets at home. <br>
+This cafe makes it possible for families or individuals to come and play with the Guinea pigs without the responsibility or commitment!
+The website will allow you to make enquiries, book a play session with the Guinea pigs, meet the pets and browse the menu. 
 
-Main page contents section:
+<h2>User Experience</h2>
+<br>
+<h3>Project outcomes</h3>
+<br>
+<li>To desgin a website for a Guiena pig cafe</li>
+<li>To create a good experience for the user when browsing the webpage and make all the pages clear and easy to find.</li>
+<li>To design a website that isn't confusing for users and gives them all the information they need.</li>
+<br>
+<h3>User Stories</h3>
+<br>
+<li>I need a website that we help me find a local cafe with the correct location and information on opening times. Preferably this will be on a home page so that It is easy to find</li>
+<li>I am looking for a cafe website where the information is clear and the design looks good.</li>
+<li>I am a website user and I need to be able to read a website that is accessible.</li>
+<br>
+<h2>Features</h2>
+<li>Navigation links to the other website pages</li>
+<li>Logo</li>
+<li>Booking enquiry form</li>
+<li>Home page</li>
+<li>Menu Page</li>
+<li>Gallery Page</li>
+<li>Footer with social media links</li>
+<br>
+<h2>Structure Plan</h2>
 
-<li>Landing image of the Guiena pig. 
-This photo is of one of my own guiena pigs emerging from a soft hidey house. Users will see this and will hopefully see how it captures the joyfulness and playfulness of not only the guiena pigs, but the cafe itself. It's border edges are smooth to create a soft, gentler feel to the website. </li>
 
-<li>Background image:
-I planned to use a faded image of coffee beans for the whole background on the website pages. This didn't help the text to stand out so indead I kept the background white and used the coffee beans in the nav banner.</li> 
+<h2>Wireframes plans</h2>
+<img src="readme images/Picture3.png">
+<img src="readme images/Picture4.png">
+<br>
+<img src="readme images/Picture2.png">
+<br>
+<h2>Design and Color scheme</h2>
+<p>For the color scheme I wanted some browns and oranges as because that would match the colors of the Guiena pigs themselves as one is ginger, and the browns would work alongside a coffee bean image.
+<br> I then wanted to add some pink colors to add to the playfulness of the cafe, and to stand out and compliment the browns and oranges.<br>
+For the logo I want to use some of these colors, so that the color scheme runs throughout.<br>
+I picked a dark grey for the text so that I was a good contrast from the background.</p>
+<img src="readme images/color.png">
+<h2>Frame works and Libraries</h2>
+<li>HTML</li>
+<li>CSS</li>
+<li>Google Fonts</li>
+<li>Canva</li>
+<li>Pexels</li>
 
-<li>Booking enquiries:</li>
-<ul></ul>
-Features of the Menu page. 
-<ul>
-<li>Menu which shows all the food and drinks avalible at the cafe.</li>
-</ul>
+<h2>Testing</h2>
 
-Meet the guiena pigs page
-<ul>
-<li>Gallery photos and facts about each Guiena pig.</li>
-</ul>
+<h2>Credits</h2>
+<p>I have listed the sources used below to credit their content in my webpage.
+<br>
+Webites use for extra help or information on coding:
+<li>w3schools.com</li>
+<br>
+Images:
+<br>
+Some of the images are my own taken of my pet guiena pigs.
+<br>
+https://www.pexels.com/photo/brown-coffee-beans-942809/ 
+<br>
+Café image:
+<br>
+https://www.pexels.com/photo/child-outside-building-near-wooden-furniture-and-tree-756093/
+<br>
+menu page:
+<br>
+https://www.pexels.com/photo/pancakes-with-strawberries-and-blueberries-on-top-2732666/ 
+<br>
+https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
 
 
-Credits
-Content:
-
-Media credits:
-<li>I used font Awesome to get the icon on the title, and used the font awesome website and w3schools to help with the set up steps.</li>
-
-extra help:
-<ul>
-<li>I used w3schools.com and my own notes to help write the meta tag.</li>
-<li>I used w3schools.com to help with the navagtion links syntax.</li>
-<li>I used my notes from the code insitute course to help link the internal pages on the webiste.</li>
-</ul>
+<h2>Gallery Contents Credit</h2>
