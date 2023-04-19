@@ -37,7 +37,7 @@
     justify-content: left;
     list-style-type: none;
     text-decoration: none;
-    padding-top: 20px;
+    padding-top: 30px;
 }
 
 a:link {
@@ -97,12 +97,6 @@ p {
 
 /*contents section*/
 
- div > img {
-    width: 400px;
-    height: 350px;
-    border-radius: 50px;
-}
-
 .content-section {
     display: flex;
     flex-direction: row;
@@ -133,14 +127,18 @@ p {
 }
 
 /*Booking Form Section*/
+ div > img {
+    width: 400px;
+    height: 350px;
+    border-radius: 50px;
+    margin-top: 45px;
+}
 
 .images {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    flex-wrap: wrap;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    align-content: center;
 }
 
 .bookings-form {
@@ -154,11 +152,9 @@ p {
 #cafe-menu {
     display: flex;
     justify-content: center;
-    padding-top: 5%;
     width: 30%;
     flex-flow: column;
-    height: 600px;
-
+    height: 550px;
 }
 
 #cafe-menu > ul {
@@ -171,8 +167,40 @@ p {
 #menu-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+
+/*Gallery Page*/
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.gallery img {
+    width: fit-content;
+    padding: 20px 20px;
+}
+
+.gallery-sections {
+    flex-direction: column;
+}
+
+.page-footer ul {
+ text-align: center;
+ background-color: #F0c9df;
+ list-style-type: none;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+ height: 60px;
+ font-family: 'Darker Grotesque', sans-serif;
+ font-weight: bolder;
 }
 
 /*For mobiles*/ 
@@ -211,35 +239,4 @@ div > img {
     border-radius: 50px;
     margin-left: 20%;
 }
-}
-
-.page-footer ul {
- text-align: center;
- background-color: #F0c9df;
- list-style-type: none;
- display: flex;
- flex-direction: row;
- justify-content: space-evenly;
- height: 60px;
- font-family: 'Darker Grotesque', sans-serif;
- font-weight: bolder;
-}
-
-/*Gallery Page*/
-
-.gallery {
-    display: flex;
-    flex-direction: row;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.gallery img {
-    width: fit-content;
-    padding: 20px 20px;
-}
-
-.gallery-sections {
-    flex-direction: column;
 }
