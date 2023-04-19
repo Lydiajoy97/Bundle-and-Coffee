@@ -13,14 +13,14 @@
 }
 
 .logo-container {
-    display: flex;
-   
+    display: flex;  
 }
 
 .logo-container img {
     height: 200px;
     width: 200px;
-    padding-top: 30px;
+    margin-top: 70px;
+    margin-right: 100px;
     border-radius: 100%;
 }
 
@@ -29,6 +29,7 @@
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 25px;
     font-weight: bold;
+    margin-left: 100px;
 }
 
 .nav-bar > ul {
@@ -127,6 +128,14 @@ p {
 }
 
 /*Booking Form Section*/
+
+.bookings-form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
  div > img {
     width: 400px;
     height: 350px;
@@ -135,15 +144,11 @@ p {
 }
 
 .images {
-    display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    align-content: center;
 }
 
-.bookings-form {
+.enquiries-form {
     width: max-content;
-    display: block;
     margin: 0 auto;
 }
 
@@ -206,20 +211,32 @@ p {
 /*For mobiles*/ 
 @media screen and (max-width: 900px) {
    
-#header-border h1 {
+ h1 {
     font-size: 50px;
     margin-left: 5%;
     }
 
-#header-border {
-    margin-left: 0;
-    margin-right: 5%;
-    width: 600px;
+.banner {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0;
 }
 
 nav ul {
-    font-size: 15px;
+font-size: 15px;
+justify-content: left;
+padding-left: 5px;
     }
+
+.logo-container img {
+margin-top: 0%;
+max-height: 100px;
+max-width: 100px;
+margin-right: 100px;
+margin-top: 50px;
+border-radius: 100%
+}
 
 h3 {
     font-size: smaller;
@@ -238,5 +255,10 @@ h3 {
 div > img {
     border-radius: 50px;
     margin-left: 20%;
+}
+
+.bookings-form {
+    display: flex;
+    flex-direction: column;
 }
 }
