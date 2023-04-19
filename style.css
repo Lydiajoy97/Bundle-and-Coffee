@@ -6,9 +6,22 @@
     padding: 50px;
     display: flex;
     background-image: url(background/beansheading.png);
-    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: space-between;
     background-repeat: repeat-x;
     background-size: cover;
+}
+
+.logo-container {
+    display: flex;
+   
+}
+
+.logo-container img {
+    height: 200px;
+    width: 200px;
+    padding-top: 30px;
+    border-radius: 100%;
 }
 
 .nav-bar {
@@ -24,6 +37,7 @@
     justify-content: left;
     list-style-type: none;
     text-decoration: none;
+    padding-top: 20px;
 }
 
 a:link {
