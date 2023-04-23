@@ -279,7 +279,11 @@ h3 {
 
 div > img {
     border-radius: 50px;
-    margin-left: 20%;
+    margin: 0 auto;
+}
+
+.landing-image {
+    margin-left: 17%;
 }
 
 .bookings-form {
@@ -293,5 +297,9 @@ div > img {
     width: 60%;
     flex-flow: column;
     height: 550px;
+}
+
+.enquiries-form {
+    margin-bottom: 10%;
 }
 }
