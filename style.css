@@ -208,12 +208,13 @@ p {
 footer {
 display: flex;
 flex-direction: column;
- background-color: #f0c9df;
+ background-color: #a25614;
  height: 260px;
+ justify-content: space-around;
 }
 
 footer p {
-    color: #6b6c6b;
+    color: #eee;
     font-size: 15px;
     font-family: 'Darker Grotesque', sans-serif;
     margin: 20px;
@@ -221,7 +222,7 @@ footer p {
 
 .footer-list {
  list-style-type: none;
- color: #6b6c6b;
+ color: #eee;
  font-family: 'Darker Grotesque', sans-serif;
  font-size: 15px;
  font-weight: bold;
@@ -233,7 +234,7 @@ flex-direction: row;
 justify-content: space-evenly;
 }
 
-/*For mobiles*/ 
+/*For ipads*/ 
 @media screen and (max-width: 900px) {
    
  h1 {
@@ -275,15 +276,13 @@ h3 {
     display: flex;
     flex-direction: column;
     width: 600px;
-}
-
-div > img {
-    border-radius: 50px;
     margin: 0 auto;
 }
 
-.landing-image {
-    margin-left: 17%;
+img {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .bookings-form {
