@@ -151,6 +151,13 @@ p {
 .enquiries-form {
     width: max-content;
     margin: 0 auto;
+    border-radius: 10%;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+.enquiries-form h3 {
+    font-size: 30px;
 }
 
 /*Menu Page*/
@@ -161,6 +168,7 @@ p {
     width: 30%;
     flex-flow: column;
     height: 550px;
+    border-radius: 10%;
 }
 
 #cafe-menu > ul {
@@ -256,7 +264,7 @@ border-radius: 100%
 }
 
 h3 {
-    font-size: smaller;
+    font-size: 20px;
 }
 
 #tag {
@@ -277,5 +285,13 @@ div > img {
 .bookings-form {
     display: flex;
     flex-direction: column;
+}
+
+#cafe-menu {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    flex-flow: column;
+    height: 550px;
 }
 }
