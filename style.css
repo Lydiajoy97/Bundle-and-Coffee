@@ -231,6 +231,8 @@ footer p {
  font-family: 'Darker Grotesque', sans-serif;
  font-size: 15px;
  font-weight: bold;
+ list-style-type: none;
+ padding: 0%;
 }
 
 .media-links {
@@ -313,10 +315,18 @@ flex-direction: row;
 min-width: 100%;
 max-height: 100px;
 }
+
+footer p {
+    font-size: 10px;
+}
+
+.footer-list {
+    font-size: 10px;
+}
    
    .media-links {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: space-evenly;
    color: #eee;
    }
@@ -388,13 +398,5 @@ max-height: 100px;
        width: 70%;
        flex-flow: column;
        height: 560px;
-   }
-
-   .footer-list {
-    font-size: 8px;
-   }
-
-   .footer p {
-    font-size: 8px;
    }
 }
