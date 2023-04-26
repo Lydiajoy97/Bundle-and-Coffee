@@ -226,12 +226,10 @@ footer p {
 }
 
 .footer-list {
- list-style-type: none;
  color: #eee;
  font-family: 'Darker Grotesque', sans-serif;
  font-size: 15px;
  font-weight: bold;
- list-style-type: none;
  padding: 0%;
 }
 
