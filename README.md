@@ -58,6 +58,30 @@ I picked a dark grey for the text so that I was a good contrast from the backgro
 <li>Pexels</li>
 
 <h2>Testing</h2>
+<h3>Strategy</h3>
+<h3>Summary</h3>
+This is a static website with HTML and CSS but no back-end functionality. Therefore, the testing will have a focus on the performance, accessibility and the layout of the website. 
+The website layout on each page should be the banner, the body and the footer without overlapping containers. All images should load quickly for the best user experience. The booking form on the home page should open a confirmation message on a new page. The navigation bar should link to other pages on the website and the font should change color depending on the page being active or visited. 
+The website should be accessible with alt tags on images, links and forms so that users with impairments are able to know what the content is showing. 
+The webpage should be responsive, and the contents should wrap to best fit the screen size. I have used media queries for iPad and mobile phone screen sizes. The banner and footer width should shrink to fit the content as well as the font sizes. 
+
+<img src="readme images/testing table.png">
+
+<h2>Testing Results</h2>
+<br>
+<img src="readme images/testingresults1.png">
+<img src="readme images/testingresults2.png">
+<p>Other issues found whilst testing:
+<ul>
+<li>List element should be wrapped in a ul or ol tag. 
+Action: I have now added a ul element to the social media links in the footer.</li>
+<li>Document does not have a meta description.
+Action: I have now added a meta description.</li>
+<li>Navigation links and the booking form items did not have a correct amount of space in between which would make a poor user experience as the user may accidentally click the wrong item. 
+Action: I have now added the gap property in between the nav bar items and add margins to the booking form items and send button.</li></ul>
+</p>
+
+<a href="https://docs.google.com/document/d/1nFfqbd-5FjWe_yTLlFebqb_IEbXeEUhVzSRfRjbDuL4/edit">You can veiw my testing results here</a>
 
 <h2>Credits</h2>
 <p>I have listed the sources used below to credit their content in my webpage.
