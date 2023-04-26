@@ -36,7 +36,10 @@ The website will allow you to make enquiries, book a play session with the Guine
 <li>Footer with social media links</li>
 <br>
 <h2>Structure Plan</h2>
-
+<p>All pages will have a banner with a nagation bar which not only links to the other pages, but displays the logo. The home page will have the cafe title 'Bundle & Coffee". All pages will contain the colors listed in my design and color scheme section. All pages will contain a footer with socail media links, contact information and copy right information. In my disign plan, the banner was going to be pink but I changed it for two reasons. Firstly because the contrast between the font color and the background color was not strong enough, and secondly because I thought the beans image would help users to know that it was a cafe website.<br>
+The home page will display a landing photo of a guiena pig, a picture of the cafe, a booking form, a description of what the cafe is and information on the opening times and address.<br>
+The Gallery page will display pictures and descriptions of all the guiena pigs in the body, and the banner, nav bar, logo and footer.<br>
+The menu page will display the cafe menu and an image of the cafe as well as the banner, nave bar, logo and footer.</p>
 
 <h2>Wireframes plans</h2>
 <img src="readme images/Picture3.png">
@@ -88,7 +91,14 @@ Action: I have now added the gap property in between the nav bar items and add m
 <br>
 Webites use for extra help or information on coding:
 <li>w3schools.com</li>
+<li>https://stackoverflow.com/</li>
+<li>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</li>
 <li>https://code-boxx.com/display-message-after-submitt-html-form/</li>
+<li>https://blog.hubspot.com/website/resize-image-without-losing-quality#ms-paint</li>
+<li>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit#formenctype</li>
+<li>https://www.aditus.io/aria/aria-label/</li>
+
+<li>https://github.com/Daisy-McG/MilestoneProject-1#Testing</li>
 <br>
 Images:
 <br>
@@ -102,9 +112,5 @@ https://www.pexels.com/photo/child-outside-building-near-wooden-furniture-and-tr
 <br>
 menu page:
 <br>
-https://www.pexels.com/photo/pancakes-with-strawberries-and-blueberries-on-top-2732666/ 
-<br>
 https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
 
-
-<h2>Gallery Contents Credit</h2>
