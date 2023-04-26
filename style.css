@@ -144,10 +144,10 @@ text-align: center;
 }
 
  div > img {
-    width: 400px;
-    height: 350px;
     border-radius: 50px;
     margin-top: 45px;
+    width: 400px;
+    height: 350px;
 }
 
 .images {
