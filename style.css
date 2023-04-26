@@ -255,9 +255,14 @@ footer p {
 .media-links {
 display: flex;
 flex-direction: column;
-list-style-type: none;
-justify-content: center;
-align-items: center;
+}
+
+.media-links ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 15px;
 }
 
 /*For ipads*/ 
