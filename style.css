@@ -218,7 +218,6 @@ margin-left: 50px;
 }
 
 .gallery img {
-    width: fit-content;
     padding: 20px 20px;
 }
 
@@ -315,14 +314,13 @@ img {
     margin: 0 auto;
 }
 
-.gallery-sections {
+.gallery {
     display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 250px;
-   }
+    flex-flow: column;
+    flex-wrap: wrap;
+}
 
-    .bookings-form {
+.bookings-form {
     display: flex;
     flex-direction: column;
 }
@@ -365,10 +363,10 @@ footer p {
 /*For Mobiles*/ 
 @media screen and (max-width: 450px) {
    
-    .bundle-coffee h1 {
-       font-size: 45px;
-       margin-left: 5%;
-       }
+.bundle-coffee h1 {
+  font-size: 45px;
+  margin-left: 5%;
+}
    
    .banner {
        display: flex;
@@ -409,16 +407,19 @@ footer p {
        height: 250px;
    }
 
-   .gallery-sections {
+   .gallery {
     display: flex;
-    flex-direction: column;
-    width: 300px;
-    height: 250px;
-   }
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.gallery-sections {
+    padding: 20px;
+}
    
-   .bookings-form {
-       display: flex;
-       flex-direction: column;
+.bookings-form {
+   display: flex;
+   flex-direction: column;
    }
 
    .enquiries-form {
