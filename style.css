@@ -272,85 +272,85 @@ flex-direction: column;
     margin-left: 5%;
     }
 
-.banner {
+ .banner {
     display: flex;
     width: 100%;
     padding: 0;
-}
+ }
 
-.nav-bar ul {
-font-size: 15px;
-padding-left: 5px; 
-gap: 15px;
-}
+ .nav-bar ul {
+ font-size: 15px;
+ padding-left: 5px; 
+ gap: 15px;
+ }
 
-.logo-container img {
-margin-top: 0%;
-max-height: 100px;
-max-width: 100px;
-margin-right: 100px;
-margin-top: 50px;
-border-radius: 100%
-}
+ .logo-container img {
+ margin-top: 0%;
+ max-height: 100px;
+ max-width: 100px;
+ margin-right: 100px;
+ margin-top: 50px;
+ border-radius: 100%
+ }
 
-h3 {
+ h3 {
     font-size: 20px;
-}
+ }
 
-#tag {
+ #tag {
   font-size: smaller;
-}
+ }
 
-.content-section {
+ .content-section {
     display: flex;
     flex-direction: column;
     width: 80%;
     margin: 0 auto;
-}
+ }
 
-img {
+ img {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-}
+ }
 
-.gallery {
+ .gallery {
     display: flex;
     flex-flow: column;
     flex-wrap: wrap;
-}
+ }
 
-.bookings-form {
+ .bookings-form {
     display: flex;
     flex-direction: column;
-}
+ }
 
-#cafe-menu {
+ #cafe-menu {
     display: flex;
     justify-content: center;
     width: 60%;
     flex-flow: column;
     height: 550px;
-}
+ }
 
-.enquiries-form {
+ .enquiries-form {
     margin-bottom: 10%;
-}
+ }
 
-footer {
-display: flex;
-flex-direction: row;
-min-width: 100%;
-max-height: 100px;
-}
+ footer {
+ display: flex;
+ flex-direction: row;
+ min-width: 100%;
+ max-height: 100px;
+ }
 
-footer p {
+ footer p {
     font-size: 10px;
-}
+ }
 
-.footer-list {
+ .footer-list {
     font-size: 10px;
-}
+ }
    
    .media-links {
    display: flex;
@@ -363,10 +363,10 @@ footer p {
 /*For Mobiles*/ 
 @media screen and (max-width: 450px) {
    
-.bundle-coffee h1 {
+ .bundle-coffee h1 {
   font-size: 45px;
-  margin-left: 5%;
-}
+  margin-left: 5%; 
+ }
    
    .banner {
        display: flex;
@@ -407,17 +407,18 @@ footer p {
        height: 250px;
    }
 
-   .gallery {
+ .gallery {
     display: flex;
     flex-flow: column;
-    flex-wrap: wrap;
-}
+    flex-wrap: wrap; }
 
-.gallery-sections {
-    padding: 20px;
-}
+
+ .gallery-sections {
+    flex-wrap: wrap;
+    padding: 20px; 
+ }
    
-.bookings-form {
+ .bookings-form {
    display: flex;
    flex-direction: column;
    }
