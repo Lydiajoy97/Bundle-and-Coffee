@@ -225,6 +225,12 @@ margin-left: 50px;
     flex-direction: column;
 }
 
+.gallery-text {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
 footer {
 display: flex;
 flex-direction: row;
