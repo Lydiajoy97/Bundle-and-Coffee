@@ -79,10 +79,10 @@ h1 {
 }
 
 h2, h3, h4 {
-color: #6e174c;
-font-family: 'Darker Grotesque', sans-serif;
-font-size: 30px;
-font-weight: bolder;
+ color: #6e174c;
+ font-family: 'Darker Grotesque', sans-serif;
+ font-size: 30px;
+ font-weight: bolder;
 }
 
 p {
@@ -93,7 +93,7 @@ p {
 }
 
 .paragrafh-text {
-text-align: center;
+ text-align: center;
 }
 
 .bundle-coffee h1 {
@@ -177,8 +177,8 @@ text-align: center;
 }
 
 .submit {
-margin-top: 10px;
-margin-left: 50px;
+ margin-top: 10px;
+ margin-left: 50px;
 }
 
 /*Menu Page*/
@@ -232,12 +232,12 @@ margin-left: 50px;
 }
 
 footer {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-background-color: #a25614;
-min-width: 100%;
-max-height: 150px;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ background-color: #a25614;
+ min-width: 100%;
+ max-height: 150px;
 }
 
 footer p {
@@ -258,8 +258,8 @@ footer p {
 }
 
 .media-links {
-display: flex;
-flex-direction: column;
+ display: flex;
+ flex-direction: column;
 }
 
 .media-links ul {
