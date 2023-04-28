@@ -11,7 +11,7 @@
 Bundle and Coffee is a cosy cafe which is the home to Guinea pigs. This cafe is designed for those who love pets, especially Guinea pigs. The Guinea pig cafe is located in Hackney which is a London borough full of families who might not have the space in their flats to have pets at home. <br>
 This cafe makes it possible for families or individuals to come and play with the Guinea pigs without the responsibility or commitment!
 The website will allow you to make enquiries, book a play session with the Guinea pigs, meet the pets and browse the menu. 
-
+<br>
 <h2>User Experience</h2>
 <br>
 <h3>Project outcomes</h3>
@@ -66,6 +66,11 @@ I picked a dark grey for the text so that I was a good contrast from the backgro
 
 <h2>Testing</h2>
 <h3>Strategy</h3>
+<p>All pages must pass through the W3C HTML code validator</p>
+<p>Whilst annaylising the web page on dev tools, all passes must score over 90 in performance, accessiblity, SEO and best practices.</p>
+<p>The CSS style sheet must pass through the W3C validator and show no errors.</p>
+<p>The website will also be tested locally when deployed.</p>
+
 <h3>Summary</h3>
 This is a static website with HTML and CSS but no back-end functionality. Therefore, the testing will have a focus on the performance, accessibility and the layout of the website. 
 The website layout on each page should be the banner, the body and the footer without overlapping containers. All images should load quickly for the best user experience. The booking form on the home page should open a confirmation message on a new page. The navigation bar should link to other pages on the website and the font should change color depending on the page being active or visited. 
@@ -85,8 +90,9 @@ Action: I have now added a ul element to the social media links in the footer.</
 <li>Document does not have a meta description.
 Action: I have now added a meta description.</li>
 <li>Navigation links and the booking form items did not have a correct amount of space in between which would make a poor user experience as the user may accidentally click the wrong item. 
-Action: I have now added the gap property in between the nav bar items and add margins to the booking form items and send button.</li></ul>
-</p>
+Action: I have now added the gap property in between the nav bar items and add margins to the booking form items and send button.
+</li></ul>
+<h3>W3C Validator results</h3>
 
 <a href="https://docs.google.com/document/d/1nFfqbd-5FjWe_yTLlFebqb_IEbXeEUhVzSRfRjbDuL4/edit">You can veiw my testing results here</a>
 
@@ -101,12 +107,12 @@ Webites use for extra help or information on coding:
 <li>https://blog.hubspot.com/website/resize-image-without-losing-quality#ms-paint</li>
 <li>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit#formenctype</li>
 <li>https://www.aditus.io/aria/aria-label/</li>
-
+<p>For help in contrusting the readme file</p>
 <li>https://github.com/Daisy-McG/MilestoneProject-1#Testing</li>
 <br>
 Images:
 <br>
-Some of the images are my own taken of my pet guiena pigs.
+Some of the images are my own taken of my pet guiena pigs. Other credits are listed below.
 <br>
 https://www.pexels.com/photo/brown-coffee-beans-942809/ 
 <br>
@@ -118,3 +124,27 @@ menu page:
 <br>
 https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
 
+<h2>Deployment</h2>
+<p>I started this project by using the code insitute template and clicking 'use this template'. I called the repository Bundle-and-coffee.</p>
+
+<p>I used these commands in the terminal window:</p>
+<ul>
+<li>git add . to add a new change to the main branch</li>
+<li>git commit -m and a message explaining the updates to commit issues to the local repository.</li>
+<li>git push was used to push all changes to the main branch.</li>
+</ul>
+
+<h2>Run Locally</h2>
+1. Go to the GitHub repository. 
+2. Click on settings. 
+3. Under code and automation in the side menu, click pages. 
+4. Under the Build and Deployment section, Click to deploy from the main branch and save. 
+5. Your project is now live.
+
+<h2>Credits</h2>
+<h3>Content</h3>
+<p>The contents of this website was written by Lydia Young.</p>
+
+<h3>Acknowledgemnts</h3>
+<p>Thank you to my mentor Ronan for all his guidence and helpful resources. Thank you too to my fellow classmate Vas for helping me with flexbox and margins.</p>
+<p> I would also like to give a special thanks to past student Harry for helping me to debug using the developer tools and for helping me to understand file path routes.</p>
