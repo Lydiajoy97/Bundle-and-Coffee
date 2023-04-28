@@ -4,7 +4,7 @@
 <br>
 
 <h2>Project Demo Page</h2>
-*insert responsive desgin demo page*
+
 
 <h2>Project Brief</h2>
 
@@ -42,17 +42,17 @@ The Gallery page will display pictures and descriptions of all the guiena pigs i
 The menu page will display the cafe menu and an image of the cafe as well as the banner, nave bar, logo and footer.</p>
 
 <h2>Wireframes plans</h2>
-<img src="readme images/Picture3.png">
-<img src="readme images/Picture4.png">
+<img src="assets/images/readme images/Picture3.png">
+<img src="assets/images/readme images/Picture4.png">
 <br>
-<img src="readme images/Picture2.png">
+<img src="assets/images/readme images/Picture2.png">
 <br>
 <h2>Design and Color scheme</h2>
 <p>For the color scheme I wanted some browns and oranges as because that would match the colors of the Guiena pigs themselves as one is ginger, and the browns would work alongside a coffee bean image.
 <br> I then wanted to add some pink colors to add to the playfulness of the cafe, and to stand out and compliment the browns and oranges.<br>
 For the logo I want to use some of these colors, so that the color scheme runs throughout.<br>
 I picked a dark grey for the text so that I was a good contrast from the background.</p>
-<img src="readme images/color.png">
+<img src="assets/images/readme images/color.png">
 <h2>Frame works and Libraries</h2>
 <li>HTML</li>
 <li>CSS</li>
@@ -68,12 +68,12 @@ The website layout on each page should be the banner, the body and the footer wi
 The website should be accessible with alt tags on images, links and forms so that users with impairments are able to know what the content is showing. 
 The webpage should be responsive, and the contents should wrap to best fit the screen size. I have used media queries for iPad and mobile phone screen sizes. The banner and footer width should shrink to fit the content as well as the font sizes. 
 
-<img src="readme images/testing table.png">
+<img src="assets/images/readme images/testing table.png">
 
 <h2>Testing Results</h2>
 <br>
-<img src="readme images/testingresults1.png">
-<img src="readme images/testingresults2.png">
+<img src="assets/images/readme images/testingresults1.png">
+<img src="assets/images/readme images/testingresults2.png">
 <p>Other issues found whilst testing:
 <ul>
 <li>List element should be wrapped in a ul or ol tag. 
