@@ -6,7 +6,7 @@
     height: 200px;
     padding: 50px;
     display: flex;
-    background-image: url('../assets/images/beansheading.webp');
+    background-image: url('../images/beansheading.webp');
     flex-direction: row-reverse;
     justify-content: space-between;
     background-repeat: repeat-x;
