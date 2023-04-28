@@ -4,10 +4,10 @@
 <br>
 
 <h2>Project Demo Page</h2>
-<img src="documentation/readme-images/responsive-page.png" 
-
+<img src="documentation/readme-images/responsive-page.png">
+<br>
 <h2>Project Brief</h2>
-
+<br>
 Bundle and Coffee is a cosy cafe which is the home to Guinea pigs. This cafe is designed for those who love pets, especially Guinea pigs. The Guinea pig cafe is located in Hackney which is a London borough full of families who might not have the space in their flats to have pets at home. <br>
 This cafe makes it possible for families or individuals to come and play with the Guinea pigs without the responsibility or commitment!
 The website will allow you to make enquiries, book a play session with the Guinea pigs, meet the pets and browse the menu. 
@@ -27,13 +27,15 @@ The website will allow you to make enquiries, book a play session with the Guine
 <li>I am a website user and I need to be able to read a website that is accessible.</li>
 <br>
 <h2>Features</h2>
+<ul>
 <li>Navigation links to the other website pages</li>
 <li>Logo</li>
-<li>Booking enquiry form</li>
+<li>Booking enquiry form with submission button and link to page</li>
 <li>Home page</li>
 <li>Menu Page</li>
 <li>Gallery Page</li>
 <li>Footer with social media links</li>
+</ul>
 <br>
 <h2>Structure Plan</h2>
 <p>All pages will have a banner with a nagation bar which not only links to the other pages, but displays the logo. The home page will have the cafe title 'Bundle & Coffee". All pages will contain the colors listed in my design and color scheme section. All pages will contain a footer with socail media links, contact information and copy right information. In my disign plan, the banner was going to be pink but I changed it for two reasons. Firstly because the contrast between the font color and the background color was not strong enough, and secondly because I thought the beans image would help users to know that it was a cafe website.<br>
@@ -46,6 +48,8 @@ The menu page will display the cafe menu and an image of the cafe as well as the
 <img src="documentation/readme-images/picture4.png">
 <br>
 <img src="documentation/readme-images/picture2.png">
+<img src="documentation/readme-images/cafe-menupage.png">
+<img src="documentation/readme-images/gallery-page.png">
 <br>
 <h2>Design and Color scheme</h2>
 <p>For the color scheme I wanted some browns and oranges as because that would match the colors of the Guiena pigs themselves as one is ginger, and the browns would work alongside a coffee bean image.
