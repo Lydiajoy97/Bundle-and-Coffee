@@ -6,6 +6,18 @@
 <br>
 <h2>Project Demo Page</h2>
 <img src="documentation/readme-images/responsive-page.png">
+<h2>Contents</h2>
+<h4>Project Brief</h4>
+<h4>user Experience</h4>
+<h4>Features</h4>
+<h4>Structure Plan</h4>
+<h4>Wireframes</h4>
+<h4>Design and Color scheme</h4>
+<h4>Frameworks and Liberies</h4>
+<h4>Testing and Results</h4>
+<h4>Credits</h4>
+<h4>Deployment</h4>
+<h4>Acknowledgements</h4>
 <br>
 <h2>Project Brief</h2>
 <br>
@@ -172,7 +184,8 @@ https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
 3. Under code and automation in the side menu, click pages. 
 4. Under the Build and Deployment section, Click to deploy from the main branch and save. 
 5. Your project is now live.
+
 <br>
-<h3>Acknowledgemnts</h2>
+<h2>Acknowledgemnts</h2>
 <p>Thank you to my mentor Ronan for all his guidence and helpful resources. Thank you too to my fellow classmate Vas for helping me with flexbox and margins.</p>
 <p> I would also like to give a special thanks to past student Harry Leepz for helping me to debug using the developer tools and for helping me to understand file path routes.</p>
