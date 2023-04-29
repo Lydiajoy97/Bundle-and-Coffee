@@ -108,7 +108,10 @@ This did not work and I ran into the same issues, so I will revert back to using
 <h3>W3C Validator results</h3>
 Index.html:
 <p>There were a few errors listed when I ran my code so I have listed my actions below:</p>
-<p>Remove line break before footer</p>
+<p>Remove line break before footer.<br>
+Remove aria-labelledby property from image.<br>
+Edit aria-labelledby tags in navagation bar links to aria-label</p>
+<p>A body start tag was found in the submit.html page but the element was already open. Action: Move body start tag to before header.</p>
 
 <a href="https://docs.google.com/document/d/1nFfqbd-5FjWe_yTLlFebqb_IEbXeEUhVzSRfRjbDuL4/edit">You can veiw my testing results here</a>
 
