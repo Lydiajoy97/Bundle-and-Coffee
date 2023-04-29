@@ -2,7 +2,8 @@
 <h1>Bundle and Coffee: Guiena Pig Cafe</h1>
 <h2>Lydia Young</h2><header>
 <br>
-
+<p>Live depolyed site: https://lydiajoy97.github.io/Bundle-and-Coffee/index.html</p>
+<br>
 <h2>Project Demo Page</h2>
 <img src="documentation/readme-images/responsive-page.png">
 <br>
@@ -174,4 +175,4 @@ https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
 <br>
 <h3>Acknowledgemnts</h2>
 <p>Thank you to my mentor Ronan for all his guidence and helpful resources. Thank you too to my fellow classmate Vas for helping me with flexbox and margins.</p>
-<p> I would also like to give a special thanks to past student Harry for helping me to debug using the developer tools and for helping me to understand file path routes.</p>
+<p> I would also like to give a special thanks to past student Harry Leepz for helping me to debug using the developer tools and for helping me to understand file path routes.</p>
