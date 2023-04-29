@@ -57,13 +57,18 @@ The menu page will display the cafe menu and an image of the cafe as well as the
 For the logo I want to use some of these colors, so that the color scheme runs throughout.<br>
 I picked a dark grey for the text so that I was a good contrast from the background.</p>
 <img src="documentation/readme-images/color.png">
+<br>
 <h2>Frame works and Libraries</h2>
+<ul>
 <li>HTML</li>
 <li>CSS</li>
 <li>Google Fonts</li>
 <li>Canva</li>
 <li>Pexels</li>
-
+<li>Wireframes</li>
+<li>Paint application</li>
+</ul>
+<br>
 <h2>Testing</h2>
 <h3>Strategy</h3>
 <p>All pages must pass through the W3C HTML code validator</p>
@@ -81,18 +86,29 @@ The webpage should be responsive, and the contents should wrap to best fit the s
 
 <h2>Testing Results</h2>
 <br>
-<img src="documentation/readme-images/testingresults1.png">
-<img src="documentation/readme-images/testingresults2.png">
-<p>Other issues found whilst testing:
-<ul>
-<li>List element should be wrapped in a ul or ol tag. 
-Action: I have now added a ul element to the social media links in the footer.</li>
-<li>Document does not have a meta description.
-Action: I have now added a meta description.</li>
-<li>Navigation links and the booking form items did not have a correct amount of space in between which would make a poor user experience as the user may accidentally click the wrong item. 
-Action: I have now added the gap property in between the nav bar items and add margins to the booking form items and send button.
-</li></ul>
+<img src="documentation/readme-images/test-results1.png">
+<img src="documentation/readme-images/test-results2.png">
+<img src="documentation/readme-images/test-results3.png">
+<br>
+<p>Other issues found whilst testing:</p>
+1.  	List element should be wrapped in a ul or ol tag.
+ Action: I have now added a ul element to the social media links in the footer.
+2.  	Document does not have a meta description.
+Action: I have now added a meta description.
+3.  	Navigation links and the booking form items did not have a correct amount of space in between which would make a poor user experience as the user may accidentally click the wrong item.
+Action: Add the gap property in between the nav bar items and add margins to the booking form items and send button. 
+4. Upon doing a peer review, my classmate suggested that the margins for booking forms should be larger on a mobile screen and the images should be slightly smaller for a better user experience. 
+Action: I have used this suggestions and added margins and made the images smaller for mobile devices. 
+5. The footer did not fill the page width. 
+Action: I changed the width to 100% to match the banner, but I still ran into the same issues. 
+I then changed the footer width to 1360px in devtools and that worked but the footer is now not responsive. 
+Action: Change the footer width across screen sizes. 
+This did not work and I ran into the same issues, so I will revert back to using using 100% as the max width. 
+<br>
 <h3>W3C Validator results</h3>
+Index.html:
+<p>There were a few errors listed when I ran my code so I have listed my actions below:</p>
+<p>Remove line break before footer</p>
 
 <a href="https://docs.google.com/document/d/1nFfqbd-5FjWe_yTLlFebqb_IEbXeEUhVzSRfRjbDuL4/edit">You can veiw my testing results here</a>
 
