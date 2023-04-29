@@ -90,8 +90,10 @@ The webpage should be responsive, and the contents should wrap to best fit the s
 <img src="documentation/readme-images/test-results2.png">
 <img src="documentation/readme-images/test-results3.png">
 <br>
+<a href="https://docs.google.com/document/d/1nFfqbd-5FjWe_yTLlFebqb_IEbXeEUhVzSRfRjbDuL4/edit">You can veiw my testing results here</a>
+<br>
 <p>Other issues found whilst testing:</p>
-1.  	List element should be wrapped in a ul or ol tag.
+<p>1.  	List element should be wrapped in a ul or ol tag.
  Action: I have now added a ul element to the social media links in the footer.
 2.  	Document does not have a meta description.
 Action: I have now added a meta description.
@@ -103,18 +105,22 @@ Action: I have used this suggestions and added margins and made the images small
 Action: I changed the width to 100% to match the banner, but I still ran into the same issues. 
 I then changed the footer width to 1360px in devtools and that worked but the footer is now not responsive. 
 Action: Change the footer width across screen sizes. 
-This did not work and I ran into the same issues, so I will revert back to using using 100% as the max width. 
+This did not work and I ran into the same issues, so I will revert back to using using 100% as the max width. After running the W3C validator I found that there was an error in the meta tag inital scale. After fixing that bug I have found that the footer now works.</p>
 <br>
 <h3>W3C Validator results</h3>
 Index.html:
-<p>There were a few errors listed when I ran my code so I have listed my actions below:</p>
+<p>There were a few errors listed when I first ran my code so I have listed my actions below:</p>
 <p>Remove line break before footer.<br>
 Remove aria-labelledby property from image.<br>
 Edit aria-labelledby tags in navagation bar links to aria-label</p>
 <p>A body start tag was found in the submit.html page but the element was already open. Action: Move body start tag to before header.</p>
-
-<a href="https://docs.google.com/document/d/1nFfqbd-5FjWe_yTLlFebqb_IEbXeEUhVzSRfRjbDuL4/edit">You can veiw my testing results here</a>
-
+<p>A stray footer tag was found. Action: move closing body tag to the end of the document below the footer.</p>
+<br>
+<p>Results: No errors or warnings to show on all pages.</p>
+<br>
+<h3>W3C CSS Validator results</h3>
+<p>No Errors found on all pages.</p>
+<br>
 <h2>Credits</h2>
 <p>I have listed the sources used below to credit their content in my webpage.
 <br>
@@ -126,9 +132,13 @@ Webites use for extra help or information on coding:
 <li>https://blog.hubspot.com/website/resize-image-without-losing-quality#ms-paint</li>
 <li>https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/submit#formenctype</li>
 <li>https://www.aditus.io/aria/aria-label/</li>
+<li>https://www.w3.org/TR/wai-aria-1.1/#aria-labelledby</li>
+<br>
 <p>For help in contrusting the readme file</p>
 <li>https://github.com/Daisy-McG/MilestoneProject-1#Testing</li>
 <br>
+<p>For help contrusting the file paths</p>
+<li>https://github.com/Harry-Leepz/Sikhism-Project</li>
 Images:
 <br>
 Some of the images are my own taken of my pet guiena pigs. Other credits are listed below.
@@ -142,28 +152,26 @@ https://www.pexels.com/photo/child-outside-building-near-wooden-furniture-and-tr
 menu page:
 <br>
 https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
-
+<h3>Contents</h3>
+<p>The contents of this webpage was written by myself without additional help.</p>
+<br>
 <h2>Deployment</h2>
 <p>I started this project by using the code insitute template and clicking 'use this template'. I called the repository Bundle-and-coffee.</p>
-
+<br>
 <p>I used these commands in the terminal window:</p>
 <ul>
 <li>git add . to add a new change to the main branch</li>
 <li>git commit -m and a message explaining the updates to commit issues to the local repository.</li>
 <li>git push was used to push all changes to the main branch.</li>
 </ul>
-
+<br>
 <h2>Run Locally</h2>
 1. Go to the GitHub repository. 
 2. Click on settings. 
 3. Under code and automation in the side menu, click pages. 
 4. Under the Build and Deployment section, Click to deploy from the main branch and save. 
 5. Your project is now live.
-
-<h2>Credits</h2>
-<h3>Content</h3>
-<p>The contents of this website was written by Lydia Young.</p>
-
+<br>
 <h3>Acknowledgemnts</h3>
 <p>Thank you to my mentor Ronan for all his guidence and helpful resources. Thank you too to my fellow classmate Vas for helping me with flexbox and margins.</p>
 <p> I would also like to give a special thanks to past student Harry for helping me to debug using the developer tools and for helping me to understand file path routes.</p>
