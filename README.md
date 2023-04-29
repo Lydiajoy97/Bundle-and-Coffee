@@ -16,7 +16,7 @@ The website will allow you to make enquiries, book a play session with the Guine
 <br>
 <h3>Project outcomes</h3>
 <br>
-<li>To desgin a website for a Guiena pig cafe</li>
+<li>To design a website for a Guiena pig cafe</li>
 <li>To create a good experience for the user when browsing the webpage and make all the pages clear and easy to find.</li>
 <li>To design a website that isn't confusing for users and gives them all the information they need.</li>
 <br>
@@ -38,7 +38,7 @@ The website will allow you to make enquiries, book a play session with the Guine
 </ul>
 <br>
 <h2>Structure Plan</h2>
-<p>All pages will have a banner with a nagation bar which not only links to the other pages, but displays the logo. The home page will have the cafe title 'Bundle & Coffee". All pages will contain the colors listed in my design and color scheme section. All pages will contain a footer with socail media links, contact information and copy right information. In my disign plan, the banner was going to be pink but I changed it for two reasons. Firstly because the contrast between the font color and the background color was not strong enough, and secondly because I thought the beans image would help users to know that it was a cafe website.<br>
+<p>All pages will have a banner with a nagation bar which not only links to the other pages, but displays the logo. The home page will have the cafe title 'Bundle & Coffee". All pages will contain the colors listed in my design and color scheme section. All pages will contain a footer with socail media links, contact information and copy right information. In my design plan, the banner was going to be pink but I changed it for two reasons. Firstly because the contrast between the font color and the background color was not strong enough, and secondly because I thought the beans image would help users to know that it was a cafe website.<br>
 The home page will display a landing photo of a guiena pig, a picture of the cafe, a booking form, a description of what the cafe is and information on the opening times and address.<br>
 The Gallery page will display pictures and descriptions of all the guiena pigs in the body, and the banner, nav bar, logo and footer.<br>
 The menu page will display the cafe menu and an image of the cafe as well as the banner, nave bar, logo and footer.</p>
@@ -172,6 +172,6 @@ https://www.pexels.com/photo/coffee-cups-in-cafe-16180909/</p>
 4. Under the Build and Deployment section, Click to deploy from the main branch and save. 
 5. Your project is now live.
 <br>
-<h3>Acknowledgemnts</h3>
+<h3>Acknowledgemnts</h2>
 <p>Thank you to my mentor Ronan for all his guidence and helpful resources. Thank you too to my fellow classmate Vas for helping me with flexbox and margins.</p>
 <p> I would also like to give a special thanks to past student Harry for helping me to debug using the developer tools and for helping me to understand file path routes.</p>
