@@ -190,8 +190,9 @@ p {
     justify-content: center;
     width: 30%;
     flex-flow: column;
-    height: 550px;
+    height: 700px;
     border-radius: 10%;
+    margin: 0 auto;
 }
 
 #cafe-menu > ul {
@@ -203,10 +204,9 @@ p {
 
 #menu-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 /*Gallery Page*/
